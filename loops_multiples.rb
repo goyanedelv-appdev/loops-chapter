@@ -18,4 +18,11 @@
 # 20
 
 p "Enter a number:"
+num = gets.chomp.to_i
 
+counter = 1
+
+10.times do
+  p counter * num
+  counter = counter + 1
+end
